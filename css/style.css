@@ -1,0 +1,52 @@
+.pg-body {
+    background-color: #eee;
+}
+
+.row-fixed {
+    --bs-gutter-x: 0 !important;
+}
+
+.figure-portrait {
+    margin: 2px !important;
+    background-color: cornflowerblue;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+.selectable figure img:hover {
+    outline: 5px solid #dc3545;
+    outline-offset: -5px;
+}
+
+/* mdbootstrap */
+.mask{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-attachment:fixed
+}
+
+.hover-overlay .mask{
+    opacity:0;
+    -webkit-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out
+}
+
+.hover-overlay .mask:hover{
+    opacity:1
+}
+
+.bg-image{
+    position:relative;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50%
+}
